@@ -1,4 +1,4 @@
 Hello Everyone.
-I am a B.Tech pursuing student as you all know .
+I am a B.Tech CSE student.
 Attendent at GLA University.
 Thanks for visit 😁😀😎👍.

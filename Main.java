@@ -1,8 +1,7 @@
-import java.util.*;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
-        //5-1 using while loop
+        /*//5-1 using while loop
         for(int i=5; i>0; i--){
             System.out.println(i);
         }
@@ -18,6 +17,6 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number:");
         int n=sc.nextInt();
-        System.out.println("check if number is even or odd. " + (n % 2 == 0 ? "Even" : "odd"));
+        System.out.println("check if number is even or odd. " + (n % 2 == 0 ? "Even" : "odd"));*/
     }
 }

@@ -8,11 +8,6 @@ public class Main {
         //1-10 using for loop
         for(int i=0; i<11; i++){
             System.out.println("For loop " + i);
-        }
-        //even numbers using for loop
-        for(int i=0; i<21; i+=2){
-            System.out.println(i);
-        }
-       
+        }       
     }
 }

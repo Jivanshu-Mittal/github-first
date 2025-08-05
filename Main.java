@@ -1,3 +1,9 @@
+// This not just about mainting github repository
+// This is about learning Java and improving coding skills
+
+
+
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World");

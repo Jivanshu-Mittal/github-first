@@ -10,6 +10,10 @@ public class Main {
         //5-1 using while loop
         for(int i=5; i>0; i--){
             System.out.println(i);
+        }
+        //5-2 using for loop
+        for(int i=5; i>0; i--){
+            System.out.println(i);
         }     
     }
 }

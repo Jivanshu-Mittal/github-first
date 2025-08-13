@@ -14,6 +14,23 @@ public class Main {
         //5-2 using for loop
         for(int i=5; i>0; i--){
             System.out.println(i);
-        }     
+        }  
+         int num = 50; // print primes up to 50
+
+        for (int i = 2; i <= num; i++) {
+            boolean isPrime = true;
+
+            // check divisibility from 2 to sqrt(i)
+            for (int j = 2; j <= Math.sqrt(i); j++) {
+                if (i % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (isPrime) {
+                System.out.println(i);
+            }
+        }   
     }
 }

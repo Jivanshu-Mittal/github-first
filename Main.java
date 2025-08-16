@@ -31,6 +31,12 @@ public class Main {
             if (isPrime) {
                 System.out.println(i);
             }
-        }   
+        } 
+        //5-3 using do while loop
+        int i = 5;
+        do {
+            System.out.println(i);
+            i--;
+        } while (i > 0);  
     }
 }

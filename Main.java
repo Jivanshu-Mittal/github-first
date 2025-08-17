@@ -37,6 +37,11 @@ public class Main {
         do {
             System.out.println(i);
             i--;
-        } while (i > 0);  
+        } while (i > 0);
+        //5-4 using for each loop
+        int[] numbers = {5, 4, 3, 2, 1};
+        for (int number : numbers) {
+            System.out.println(number);
+        }  
     }
 }

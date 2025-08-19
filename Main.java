@@ -42,6 +42,11 @@ public class Main {
         int[] numbers = {5, 4, 3, 2, 1};
         for (int number : numbers) {
             System.out.println(number);
+        }
+        //5-5 using for each loop with a list
+        java.util.List<Integer> numberList = java.util.Arrays.asList(5, 4, 3, 2, 1);
+        for (int number : numberList) {
+            System.out.println(number);
         }  
     }
 }

@@ -48,5 +48,12 @@ public class Main {
         for (int number : numberList) {
             System.out.println(number);
         }  
+        //5-6 using break statement
+        for (int j = 5; j > 0; j--) {
+            if (j == 3) {
+                break; // exit loop when j is 3
+            }
+            System.out.println(j);
+        }
     }
 }

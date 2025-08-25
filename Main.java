@@ -7,7 +7,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World");
-        //5-1 using while loop
+        /*5-1 using while loop
         for(int i=5; i>0; i--){
             System.out.println(i);
         }
@@ -54,6 +54,22 @@ public class Main {
                 break; // exit loop when j is 3
             }
             System.out.println(j);
+        }*/
+         // Ordered list example
+        java.util.List<Integer> orderedList = new java.util.ArrayList<>();
+        orderedList.add(5);
+        orderedList.add(2);
+        orderedList.add(4);
+        orderedList.add(1);
+        orderedList.add(3);
+
+        // Sort the list in ascending order
+        java.util.Collections.sort(orderedList);
+
+        // Print the ordered list
+        System.out.println("Ordered List:");
+        for (int number : orderedList) {
+            System.out.println(number);
         }
     }
 }

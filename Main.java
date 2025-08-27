@@ -54,7 +54,7 @@ public class Main {
                 break; // exit loop when j is 3
             }
             System.out.println(j);
-        }*/
+        }
          // Ordered list example
         java.util.List<Integer> orderedList = new java.util.ArrayList<>();
         orderedList.add(5);
@@ -70,6 +70,18 @@ public class Main {
         System.out.println("Ordered List:");
         for (int number : orderedList) {
             System.out.println(number);
+        }*/
+         // Unordered list of F1 teams
+        java.util.List<String> f1Teams = new java.util.ArrayList<>();
+        f1Teams.add("Red Bull Racing");
+        f1Teams.add("Mercedes");
+        f1Teams.add("Ferrari");
+        f1Teams.add("McLaren");
+        f1Teams.add("Aston Martin");
+
+        System.out.println("Unordered List of F1 Teams:");
+        for (String team : f1Teams) {
+            System.out.println(team);
         }
     }
 }

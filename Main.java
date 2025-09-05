@@ -1,8 +1,6 @@
 // This not just about mainting github repository
 // This is about learning Java and improving coding skills
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World");
@@ -81,10 +79,10 @@ public class Main {
         System.out.println("Unordered List of F1 Teams:");
         for (String team : f1Teams) {
             System.out.println(team);
-        }*/
+        }
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a floating point number:");
         float n=sc.nextFloat();
-        System.out.println(n);
+        System.out.println(n);*/
     }
 }

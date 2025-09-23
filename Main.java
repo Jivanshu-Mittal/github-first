@@ -12,10 +12,10 @@ public class Main {
         double decimal = 3.14;
         String text = "Hello, Java!";
 
-        // Output variables
+        /*  Output variables
         System.out.println("Integer: " + number);
         System.out.println("Double: " + decimal);
-        System.out.println("String: " + text);
+        System.out.println("String: " + text);*/
 
         // Input from user
         Scanner scanner = new Scanner(System.in);

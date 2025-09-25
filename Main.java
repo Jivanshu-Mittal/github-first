@@ -9,8 +9,8 @@ public class Main {
 
         // Variable declaration and initialization
         int number = 10;
-        double decimal = 3.14;
-        String text = "Hello, Java!";
+        //double decimal = 3.14;
+        //String text = "Hello, Java!";
 
         /*  Output variables
         System.out.println("Integer: " + number);
